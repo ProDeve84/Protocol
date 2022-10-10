@@ -17,20 +17,13 @@ export const CAKE: { [chainId: number]: Token } = {
   ),
 }
 
-export const BLOVELY: { [chainId: number]: Token } = {
+export const BPET: { [chainId: number]: Token } = {
   [ChainId.MAINNET]: new Token(
     ChainId.MAINNET,
-    '0x04Df8C91FCcFd703cD15047bF6C1cE76D335C6cE',
+    '0x842BFbA3603bD97F1ae49122F0b56C073d56031F',
     9,
-    'BLOVELY',
-    'Baby Lovely Inu',
-  ),
-  [ChainId.TESTNET]: new Token(
-    ChainId.TESTNET,
-    '0xB443B78c07E1Ce810C37921da36A175697AfA963',
-    18,
-    'BLOVELY',
-    'Baby Lovely Inu',
+    'BPET',
+    'Binance Pet',
   ),
 }
 
@@ -82,10 +75,10 @@ const tokens = {
     symbol: 'BNB',
     projectLink: 'https://www.binance.com/',
   },
-  blovely: {
-    symbol: 'BLOVELY',
+  bpet: {
+    symbol: 'BPET',
     address: {
-      56: '0x04Df8C91FCcFd703cD15047bF6C1cE76D335C6cE',
+      56: '0x842BFbA3603bD97F1ae49122F0b56C073d56031F',
       97: '0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe'
     },
     decimals: 9,
