@@ -60,13 +60,13 @@ const FarmedStakingCard = () => {
         <Heading size="xl" mb="24px">
           {t('Farms & Staking')}
         </Heading>
-        <CardImage src="/images/new/blovely.png" alt="bl logo" width={64} height={64} />
+        <CardImage src="https://raw.githubusercontent.com/ProDeve84/Protocol/main/images/B-Pet%20Token%20-%20Logo.png" alt="BPET Logo" width={64} height={64} />
         <Block>
-          <Label>{t('BLOVELY to Harvest')}:</Label>
+          <Label>{t('BPET to Harvest')}:</Label>
           <CakeHarvestBalance />
         </Block>
         <Block>
-          <Label>{t('BLOVELY in Wallet')}:</Label>
+          <Label>{t('BPET in Wallet')}:</Label>
           <CakeWalletBalance />
         </Block>
         <Actions>
