@@ -4,43 +4,43 @@ import { FarmConfig } from './types'
 const farms: FarmConfig[] = [
   {
     pid: 0,
-    lpSymbol: 'BLOVELY',
+    lpSymbol: 'BPET',
     lpAddresses: {
       97: '',
-      56: '0xacC6D4bB383948E1a4e1DF35272E6936c3a4A201',
+      56: '0x80a25cd9cc05fd2ec4f157f9bbb1dae940e598e2',
     },
     isTokenOnly: true,
-    token: tokens.blovely,
+    token: tokens.bpet,
     quoteToken: tokens.busd,
   },
   {
     pid: 1,
-    lpSymbol: 'BLOVELY-BNB',
+    lpSymbol: 'BPET-BNB',
     lpAddresses: {
       97: '',
       56: '0xC680DCC0b7c588DfD2bdE19f543E37Dfd276ae31',
     },
-    token: tokens.blovely,
+    token: tokens.bpet,
     quoteToken: tokens.wbnb,
   },
   {
     pid: 2,
-    lpSymbol: 'BLOVELY-BUSD',
+    lpSymbol: 'BPET-BUSD',
     lpAddresses: {
       97: '',
       56: '0xacC6D4bB383948E1a4e1DF35272E6936c3a4A201',
     },
-    token: tokens.blovely,
+    token: tokens.bpet,
     quoteToken: tokens.busd,
   },
   {
     pid: 3,
-    lpSymbol: 'BLOVELY-USDT',
+    lpSymbol: 'BPET-USDT',
     lpAddresses: {
       97: '',
       56: '0x5B8d590b63Cb5f0Cac7e1D4936bCd4e6526F54F8',
     },
-    token: tokens.blovely,
+    token: tokens.bpet,
     quoteToken: tokens.usdt,
   },
   {

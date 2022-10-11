@@ -4,8 +4,8 @@ import { PoolConfig, PoolCategory } from './types'
 const pools: PoolConfig[] = [
   {
     sousId: 1,
-    stakingToken: tokens.blovely,
-    earningToken: tokens.blovely,
+    stakingToken: tokens.bpet,
+    earningToken: tokens.bpet,
     contractAddress: {
       97: '',
       56: '0xef79BE5002F2daA197392d7A4137cb7eadE1afEe',

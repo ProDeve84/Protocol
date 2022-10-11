@@ -11,7 +11,7 @@ export const getReferralAddress = () => {
   return getAddress(addresses.referral)
 }
 export const getCakeAddress = () => {
-  return getAddress(tokens.blovely.address)
+  return getAddress(tokens.bpet.address)
 }
 export const getMasterChefAddress = () => {
   return getAddress(addresses.masterChef)
